@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PrincipalController;
 
 // Rota para a página do Chef
-Route::get('/chef', [PrincipalController::class, 'chef']);
+Route::get('/chef', [PrincipalController::class, 'index']);
 
 // Rota para a página do Cartão de Visita
 Route::get('/cartao-visita', [PrincipalController::class, 'cartaoVisita']);
